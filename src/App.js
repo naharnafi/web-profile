@@ -9,6 +9,7 @@ import { FaMapPin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import YouTube from "react-youtube";
 
 function App() {
 	return (
@@ -142,6 +143,11 @@ function App() {
 						</div>
 					</div>
 				</div>
+				<YouTube
+					videoId="vHjYrFOaIOs"
+					opts={opts}
+					onReady={this._onReady}
+				/>
 			</div>
 		</div>
 	);
