@@ -7,7 +7,261 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.box {
+	background-color: rgba(251, 245, 239, 0.8);
+  display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+  /* flex-wrap: wrap; */
+  max-width: 100%;
 }
+
+.sidebar {
+	align-items: center;
+	margin-top: 10px;
+	margin-right: 0px;
+  margin-left: 10px;
+	background-color: rgba(232, 234, 230, 0.9);
+	width: 20%;
+	border: 1px slategray;
+	border-radius: 30px;
+  /* flex-wrap: wrap; */
+}
+.biodata {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	font-family: "Merienda", cursive;
+}
+.biodata-detail {
+  margin: auto;
+}
+.background-profile img {
+	width: 80%;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px grey;
+	margin: auto
+}
+.biodata img {
+	margin-top: 2px;
+	width: 170px;
+	border-radius: 3px;
+	/* margin-right: 20px; */
+}
+
+.name-job {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.biodata .name-job h2 {
+	font-size: 15px;
+	background-color: #fbf6f0;
+  margin:1 auto;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px grey;
+}
+.biodata .name-job h4 {
+	background-color: orangered;
+	/* background-color: #f05454; */
+	border-radius: 6px;
+	margin: auto;
+	box-shadow: 1px 1px 1px grey;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.address {
+  padding: 0;
+}
+.address h4 {
+	/* display: inline-block; */
+  width: 50%;
+	font-size: 17px;
+	background-color: #fcf876;
+	margin: 7px auto;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px grey;
+  text-align: center;
+}
+.biodata .address li {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #fbf6f0;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px grey;
+	font-size: 13px;
+  display: flex;
+}
+.icon-address {
+margin: 3px 3px 0px 0px;
+}
+.biodata button {
+  margin: auto;
+	padding: 5px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background-color: orangered;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: "Merienda", cursive;
+	box-shadow: 1px 1px 1px grey;
+	transition: 0.3s;
+	border: none;
+}
+.btn:hover {
+	background-color: green;
+	color: whitesmoke;
+}
+/* .background-profile {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: 1px slategray;
+    border-radius: 50px;
+    background-color: #fbf6f0;
+    box-shadow: 1px 1px 1px grey;
+} */
+
+iframe {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 50px;
+	border-radius: 25px;
+}
+.main {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px snow;
+	border-radius: 5px;
+}
+.main .intro {
+	margin-left: 10px;
+	padding: 10px 10px;
+}
+.main .intro h2 {
+	display: inline-block;
+	padding: 2px;
+	background-color: #fcf876;
+	border-radius: 6px;
+	font-size: 20px;
+	font-family: "Merienda", cursive;
+}
+.main .intro p {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 15px;
+	text-align: justify;
+	font-family: "Merienda", cursive;
+	background-color: rgba(232, 234, 230, 0.8);
+	border-radius: 10px;
+}
+.skill-container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  width: 100%;
+  
+}
+.skill {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill h2, p, span {
+  font-family: "Merienda", cursive;
+}
+.skill-content {
+  display: flex;
+  justify-content:space-evenly;
+} 
+.skill-web {
+  /* height: 50vh; */
+}
+.content {
+  text-align: center;
+  margin: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.icon-skill {
+  color: tomato;
+  font-size: 100px;
+  }
+
+@media (max-width: 1024px) {
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .background-profile img {
+    border-radius: 40px 40px 0px 0px;
+  }
+  .sidebar {
+    width: 70%;
+    margin: auto;
+    border-radius: 200px;
+  }
+  .biodata button {
+    border-radius: 25%;
+  }
+}
+
+
+/* .skill {
+	border: 1px snow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.skill img {
+	width: 170px;
+	margin: 5px;
+	margin-bottom: 1px;
+}
+.skill .skill-size {
+	width: 40%;
+	border-radius: 30px;
+	margin: 10px;
+	margin-left: 0px;
+	text-align: center;
+	font-size: 15px;
+	box-shadow: 2px 2px 2px grey;
+	cursor: pointer;
+	transition: 0.3s;
+	background-color: #fbf6f0;
+}
+.skill .skill-size:hover {
+	box-shadow: 10px 10px 10px grey;
+	transform: translateY(-10px);
+}
+.skill .skill-size h2 {
+	margin-top: 1px;
+	margin-bottom: 10px;
+	font-family: "Philosopher", sans-serif;
+}
+.skill .skill-size p {
+	margin: 5px;
+	margin-top: 1px;
+	font-family: "Philosopher", sans-serif;
+	font-size: 16px;
+}
+.skill .skill-web img {
+	margin-top: 45px;
+}
+.skill .skill-web h2 {
+	margin-top: 35px;
+} */
