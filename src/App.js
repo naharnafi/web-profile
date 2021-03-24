@@ -88,21 +88,26 @@ function App() {
 					</div>
 					<div className="skill-container">
 						<div className="skill skill-web">
-							<h2>Web Development</h2>
-							<p>
-								High-quality development of
-								sites at the professional level
-								with the globally recognized web
-								design and marketing company,
-							</p>
+							<div className="skill-text">
+								<h2>WEB DEVELOPMENT</h2>
+								<p>
+									High-quality development
+									of sites at the
+									professional level with
+									the globally recognized
+									web design and marketing
+									company,
+								</p>
+							</div>
+
 							<div className="skill-content">
 								<div className="content html-container">
 									<FaHtml5 className="icon-skill icon-html" />
-									<span>Html</span>
+									<span>HTML</span>
 								</div>
 								<div className="content css-container">
 									<FaCss3Alt className="icon-skill icon-css" />
-									<span>Css</span>
+									<span>CSS</span>
 								</div>
 								<div className="content js-container">
 									<FaJsSquare className="icon-skill icon-js" />
@@ -115,7 +120,7 @@ function App() {
 							</div>
 						</div>
 						<div className="skill skill-english">
-							<h2>Translation</h2>
+							<h2>TRANSLATION</h2>
 							<p>
 								The high-level translation which
 								provides the affordable prices
