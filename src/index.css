@@ -10,11 +10,11 @@ body {
 
 .box {
 	background-color: rgba(251, 245, 239, 0.8);
-  display: flex;
+	display: flex;
 	justify-content: space-evenly;
 	padding-bottom: 40px;
-  /* flex-wrap: wrap; */
-  max-width: 100%;
+	/* flex-wrap: wrap; */
+	max-width: 100%;
 }
 
 .sidebar {
@@ -66,13 +66,14 @@ body {
 	box-shadow: 1px 1px 1px grey;
 }
 .biodata .name-job h4 {
-	background-color: orangered;
+	background-color: tomato;
 	/* background-color: #f05454; */
 	border-radius: 6px;
 	margin: auto;
 	box-shadow: 1px 1px 1px grey;
 	font-size: 13px;
 	margin-bottom: 20px;
+	display: inline-block;
 }
 .address {
   padding: 0;
@@ -81,7 +82,7 @@ body {
 	/* display: inline-block; */
   width: 50%;
 	font-size: 17px;
-	background-color: #fcf876;
+	background-color: tomato;
 	margin: 7px auto;
 	border-radius: 6px;
 	box-shadow: 1px 1px 1px grey;
@@ -104,7 +105,7 @@ margin: 3px 3px 0px 0px;
 	padding: 5px;
 	margin-top: 50px;
 	margin-bottom: 25px;
-	background-color: orangered;
+	background-color: tomato;
 	border-radius: 10px;
 	font-size: 20px;
 	font-family: "Merienda", cursive;
@@ -167,38 +168,64 @@ iframe {
   /* flex-direction: column; */
   /* align-items: center; */
   width: 100%;
-  
+  /* background-image: url("./img/indo.jpg"); */
+  /* background-size: cover; */
+  /* background-color: silver; */
+  background-color: rgba(232, 234, 230, 0.5);
+  border-radius: 20px;
+  margin: 0px 20px;
 }
 .skill {
   margin: auto;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
 }
-.skill h2, p, span {
+.skill h2 {
+	font-family:cursive ;
+	background-color: rgba(251, 245, 239, 0.9);
+	width: auto;
+	display: inline-block;
+	border-radius: 5px;
+}
+.skill p, span {
   font-family: "Merienda", cursive;
 }
 .skill-content {
   display: flex;
   justify-content:space-evenly;
+  flex-wrap: wrap;
 } 
 .skill-web {
   /* height: 50vh; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 .content {
   text-align: center;
   margin: 25px;
-  width: 100%;
+  /* width: 25%; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+.icon-skill:hover {
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px grey;
+	transform: translateY(-6px);
+	transition: 0.4s;
+}
 .icon-skill {
-  color: tomato;
+  color: tomato; opacity: 0.8;
   font-size: 100px;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 15px;
+  margin-bottom: 5px;
   }
 
 @media (max-width: 1024px) {
@@ -217,6 +244,11 @@ iframe {
   }
   .biodata button {
     border-radius: 25%;
+  }
+  .skill {
+	  display: flex;
+	  flex-wrap: wrap;
+	  max-width: 100%;
   }
 }
 
@@ -247,6 +279,8 @@ iframe {
 .skill .skill-size:hover {
 	box-shadow: 10px 10px 10px grey;
 	transform: translateY(-10px);
+	transition: 0.3s;
+	cursor: pointer;
 }
 .skill .skill-size h2 {
 	margin-top: 1px;
