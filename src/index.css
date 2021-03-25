@@ -133,6 +133,7 @@ margin: 3px 3px 0px 0px;
 } */
 
 .project-experience {
+	margin-top: 30px;
 	text-align: center;
 }
 .project-experience h3 {
@@ -157,10 +158,9 @@ margin: 3px 3px 0px 0px;
 	font-size: 13px;
 	margin-bottom: 20px;
 	width: 30%;
-}
-.laflix {
 	font-weight: 950;
 }
+
 .laflix-text-wrapper {
 	background-color: #fbf6f0;
 	border-radius: 6px;
@@ -253,11 +253,6 @@ display: inline;
   justify-content:space-evenly;
   flex-wrap: wrap;
 } 
-.skill-web {
-  /* height: 50vh; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-}
 .content {
   text-align: center;
   margin: 25px;
@@ -293,8 +288,9 @@ display: inline;
 	background-color: rgba(251, 245, 239, 0.8);
 }
 .video-container {
+	margin-bottom: 30px;
 	width: 70%;
-	border-radius: 150px 150px 0px 0px;
+	border-radius: 150px 150px 10px 10px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -311,14 +307,15 @@ display: inline;
 	border-bottom: 1px solid grey;
 }
 .video {
+
 background-color: wheat;
-/* max-width:100% ; */
+max-width:100% ;
 text-align: right;
 /* display: flex;
 justify-content: right; */
+border-radius: 50px;
 }
 .up-part {
-/* min-width: fit-content; */
 width: auto;
 }
 .footer {
@@ -347,5 +344,9 @@ width: auto;
 	  display: flex;
 	  flex-wrap: wrap;
 	  max-width: 100%;
+  }
+  .video {
+	height: 400px;
+	width: 500px;
   }
 }

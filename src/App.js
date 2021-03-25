@@ -123,7 +123,7 @@ function App() {
 										clicking
 									</p>
 									<span> </span>
-									<a href="https://laflix-movie.herokuapp.com">
+									<a href="https://sportsman-apps.herokuapp.com">
 										here
 									</a>
 								</div>
@@ -138,23 +138,21 @@ function App() {
 							<p>
 								<b>
 									A language nerd and
-									tech-savvy who
-									participated in the
-									various web development
-									project for a Non-Profit
-									Organization. Completed
-									the Intensive Bootcamp
-									from Glints Academy
-									focusing on Front-end
-									development. Actively
-									write articles for some
-									reputable academic
-									journals in the field of
-									language and education.
+									tech-savvy who loves new
+									challanges. Completed the
+									Intensive Bootcamp from
+									Glints Academy focusing on
+									Front-end development.
+									Actively improves skills
+									in the latest stack
+									technology especially
+									those which are related to
+									frontend development.
 									Adept at problem solving,
-									time-management.
-									Proficient in MS Office
-									and Corel Draw.
+									time-management, and
+									multi-tasking. Able to
+									work individually or in a
+									team.
 								</b>
 							</p>
 							<div>
@@ -236,7 +234,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			{/* <div className="down-part">
+			<div className="down-part">
 				<div className="video-container">
 					<h2>Sportsman</h2>
 
@@ -248,7 +246,7 @@ function App() {
 						onReady={onReady}
 					/>
 				</div>
-			</div> */}
+			</div>
 			<div className="footer">
 				<span>Designed by Nahar</span>
 			</div>
