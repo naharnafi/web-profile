@@ -99,7 +99,7 @@ body {
 	border-radius: 6px;
 	box-shadow: 1px 1px 1px grey;
 	font-size: 13px;
-  display: flex;
+	display: flex;
 }
 .icon-address {
 margin: 3px 3px 0px 0px;
@@ -132,11 +132,52 @@ margin: 3px 3px 0px 0px;
     box-shadow: 1px 1px 1px grey;
 } */
 
-iframe {
-	margin-left: 10px;
-	margin-top: 10px;
-	padding-top: 50px;
-	border-radius: 25px;
+.project-experience {
+	text-align: center;
+}
+.project-experience h3 {
+	font-weight: 600;
+	font-size: 15px;
+	display: inline-block;
+	/* text-align: center; */
+	/* margin: auto; */
+	background-color: wheat;
+	margin: 30px auto 10px auto;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px grey;
+}
+.project-experience .laflix {
+	background-color: #fbf6f0;
+	border-radius: 10px;
+	font-family:cursive ;
+	border-bottom: 1px solid grey;
+	/* border-radius: 6px; */
+	margin: 15px auto;
+	box-shadow: 1px 1px 1px grey;
+	font-size: 13px;
+	margin-bottom: 20px;
+	width: 30%;
+}
+.laflix {
+	font-weight: 950;
+}
+.laflix-text-wrapper {
+	background-color: #fbf6f0;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px grey;
+	/* display: inline-block; */
+	/* display: inline; */
+	font-size: 13px;
+	/* display: flex;
+	flex-direction: column; */
+	text-align:justify;
+	margin: 10px;
+}
+.laflix-info{
+display: inline;
+}
+.laflix-info a {
+	display: inline;
 }
 .main {
 	width: 77%;
@@ -226,6 +267,13 @@ iframe {
   align-items: center;
   text-align: center;
 }
+
+.content span {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: auto
+}
 .icon-skill:hover {
 	border-radius: 20px;
 	box-shadow: 4px 4px 4px grey;
@@ -290,7 +338,7 @@ width: auto;
   .sidebar {
     width: 70%;
     margin: auto;
-    border-radius: 200px;
+    border-radius: 200px 200px 25px 25px;
   }
   .biodata button {
     border-radius: 25%;

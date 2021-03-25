@@ -78,10 +78,55 @@ function App() {
 									</li>
 								</ul>
 							</div>
-							<div className="button-download">
-								<button className="btn">
-									<a>Download CV</a>
-								</button>
+							<div className="project-experience">
+								<h3>Project Experiences</h3>
+								<p className="laflix">Laflix</p>
+								<div className="laflix-text-wrapper">
+									<p className="laflix-info">
+										This is an app for
+										watching movie
+										information such as
+										the trailers,
+										rating, synopsis,
+										etc. To start using
+										the complete feature
+										of the app, the user
+										should create an
+										account first, later
+										on the users even
+										can save the
+										favorite movie
+										information. To see
+										how the app looks
+										like, click the
+										deployed app
+									</p>
+									<span> </span>
+									<a href="https://laflix-movie.herokuapp.com">
+										here
+									</a>
+								</div>
+								<p className="laflix">
+									Sportsman
+								</p>
+								<div className="laflix-text-wrapper">
+									<p className="laflix-info">
+										Sportsman is an app
+										designed for people
+										who love excercises.
+										This app has been
+										created by 10
+										developers and the
+										improvement is still
+										continuing so far.
+										See the app by
+										clicking
+									</p>
+									<span> </span>
+									<a href="https://laflix-movie.herokuapp.com">
+										here
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -191,18 +236,11 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="down-part">
+			{/* <div className="down-part">
 				<div className="video-container">
-					<h2>Project Experience</h2>
-					<span>
-						<p>Sportsman</p>
-					</span>
-					<span>
-						Sportsman is an app designed for people who
-						love excercises. This app has been created
-						by 10 developers and the improvement is
-						still continuing so far.
-					</span>
+					<h2>Sportsman</h2>
+
+					<span></span>
 					<YouTube
 						className="video"
 						videoId="vHjYrFOaIOs"
@@ -210,7 +248,7 @@ function App() {
 						onReady={onReady}
 					/>
 				</div>
-			</div>
+			</div> */}
 			<div className="footer">
 				<span>Designed by Nahar</span>
 			</div>
